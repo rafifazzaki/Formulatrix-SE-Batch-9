@@ -1,3 +1,6 @@
+namespace Vehicle;
+
+
 class Tire{
     public int diameter;
 

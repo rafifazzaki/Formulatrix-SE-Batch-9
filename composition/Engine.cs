@@ -1,3 +1,5 @@
+namespace Vehicle;
+
 class Engine{
     public int cylinder;
     public string construction;

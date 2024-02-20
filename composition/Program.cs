@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Vehicle;
 
 // composition: each attribute has it's own class
 class Program{

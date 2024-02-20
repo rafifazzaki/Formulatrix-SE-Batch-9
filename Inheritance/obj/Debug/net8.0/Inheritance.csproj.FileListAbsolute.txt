@@ -1,0 +1,15 @@
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\bin\Debug\net8.0\Inheritance.exe
+c:\Users\Batch 9\Desktop\Batch 9\Inheritance\bin\Debug\net8.0\Inheritance.deps.json
+c:\Users\Batch 9\Desktop\Batch 9\Inheritance\bin\Debug\net8.0\Inheritance.runtimeconfig.json
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\bin\Debug\net8.0\Inheritance.dll
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\bin\Debug\net8.0\Inheritance.pdb
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.AssemblyInfoInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.AssemblyInfo.cs
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.sourcelink.json
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.dll
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\refint\Inheritance.dll
+C:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.pdb
+c:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\Inheritance.genruntimeconfig.cache
+c:\Users\Batch 9\Desktop\Batch 9\Inheritance\obj\Debug\net8.0\ref\Inheritance.dll

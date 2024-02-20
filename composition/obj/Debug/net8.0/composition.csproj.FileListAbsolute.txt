@@ -1,0 +1,15 @@
+C:\Users\Batch 9\Desktop\Batch 9\composition\bin\Debug\net8.0\composition.exe
+c:\Users\Batch 9\Desktop\Batch 9\composition\bin\Debug\net8.0\composition.deps.json
+c:\Users\Batch 9\Desktop\Batch 9\composition\bin\Debug\net8.0\composition.runtimeconfig.json
+C:\Users\Batch 9\Desktop\Batch 9\composition\bin\Debug\net8.0\composition.dll
+C:\Users\Batch 9\Desktop\Batch 9\composition\bin\Debug\net8.0\composition.pdb
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.AssemblyInfoInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.AssemblyInfo.cs
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.csproj.CoreCompileInputs.cache
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.sourcelink.json
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.dll
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\refint\composition.dll
+C:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.pdb
+c:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\composition.genruntimeconfig.cache
+c:\Users\Batch 9\Desktop\Batch 9\composition\obj\Debug\net8.0\ref\composition.dll
