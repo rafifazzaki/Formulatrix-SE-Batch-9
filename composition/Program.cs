@@ -6,6 +6,7 @@ class Program{
         Engine engine = new Engine(3,"triple", "oil");
         Tire tire = new Tire(50, "tubeless");
         Motorcycle beatPop = new Motorcycle(engine, "beatPop", "honda", tire);
-        
+
+        Console.WriteLine(beatPop);
     }
 }
