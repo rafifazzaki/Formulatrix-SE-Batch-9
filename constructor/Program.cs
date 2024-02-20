@@ -8,10 +8,9 @@ class Program{
 
         Console.WriteLine(rafif.id);
 
-        Team teamTest = new Team("testTeam");
+        Team teamTest = new Team("testTeam", rafif);
 
         Console.WriteLine(teamTest.emp.name);
-
     }
 }
 
@@ -20,9 +19,21 @@ class Employee{
     public int id;
     public string email;
 
+    public Employee(){
+        name = "default";
+        id = 0;
+        email = "default@fmlx.com";
+    }
     public Employee(string name, int id){
         this.name = name;
         this.id = id;
+    }
+    // constructor is to make an object, and to force input variable
+    // overloading:same constructor/method but diff parameter
+    public Employee(string name, int id,string email){
+        this.name = name;
+        this.id = id;
+        this.email = email;
     }
 }
 
@@ -34,7 +45,10 @@ class Team{
 
     public Team(string name){
         this.name = name;
+    }
 
-        emp = new Employee("test", 111);
+    public Team(string name, Employee emp){
+        this.name = name;
+        this.emp = emp;
     }
 }
