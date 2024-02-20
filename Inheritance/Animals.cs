@@ -3,9 +3,9 @@ namespace Animals;
 
 public class Animal
 {
-    public string gender;
-    public string colour;
-    public bool isHealthy;
+    protected string gender;
+    protected string colour;
+    protected bool isHealthy;
 
     public Animal(string colour, string gender, bool isHealthy){
         this.gender = gender;

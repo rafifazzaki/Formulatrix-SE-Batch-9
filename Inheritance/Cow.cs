@@ -5,7 +5,7 @@ class Cow : Animal
     public Cow() : base("cow", "female", true){
 
     }
-    public void Moo()
+    internal void Moo()
     {
         Console.WriteLine("Moo");
     }

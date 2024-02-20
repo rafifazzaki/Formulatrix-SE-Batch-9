@@ -2,13 +2,13 @@ namespace Animals;
 
 public class Dog : Animal
 {
-    public string name;
+    internal string name;
     
     public Dog(string colour, string gender, bool isHealthy) : base(colour, gender, isHealthy){
 
     }
 
-    public void Bark(){
+    internal void Bark(){
         Console.WriteLine("woof woof");
     }
 }

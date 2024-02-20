@@ -2,7 +2,7 @@ namespace Animals;
 
 public class Cat : Animal
 {
-    public string name;
+    internal string name;
     
 
     public Cat(string colour, string gender) : base(colour, gender , true)
@@ -10,7 +10,7 @@ public class Cat : Animal
         Console.WriteLine("child");
     }
 
-    public void Meow(){
+    internal void Meow(){
         Console.WriteLine("Meow meow");
     }
 }

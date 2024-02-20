@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj": {}
+    "C:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj": {
+    "C:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj",
+        "projectUniqueName": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj",
         "projectName": "composition",
-        "projectPath": "c:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj",
+        "projectPath": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\composition.csproj",
         "packagesPath": "C:\\Users\\Batch 9\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\obj\\",
+        "outputPath": "C:\\Users\\Batch 9\\Desktop\\Batch 9\\composition\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 9\\AppData\\Roaming\\NuGet\\NuGet.Config"
