@@ -1,4 +1,5 @@
 namespace Animals;
+// the child can be another child, then another child, but each child only has one parent
 
 public class Animal
 {
