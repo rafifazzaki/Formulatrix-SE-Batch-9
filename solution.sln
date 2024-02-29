@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -68,6 +68,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialExample", "PartialExample\PartialExample.csproj", "{4D5B30D0-6E41-43F6-85B2-CADCA820B203}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleExample", "ConsoleExample\ConsoleExample.csproj", "{E61908FB-E39D-47CA-A419-76A5B8217B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectPersonalTestingCard", "ProjectPersonalTestingCard\ProjectPersonalTestingCard.csproj", "{20E09623-B4F8-40A4-A774-1F8BE8683B7F}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -406,6 +408,18 @@ Global
 		{E61908FB-E39D-47CA-A419-76A5B8217B4D}.Release|x64.Build.0 = Release|Any CPU
 		{E61908FB-E39D-47CA-A419-76A5B8217B4D}.Release|x86.ActiveCfg = Release|Any CPU
 		{E61908FB-E39D-47CA-A419-76A5B8217B4D}.Release|x86.Build.0 = Release|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Debug|x64.Build.0 = Debug|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Debug|x86.Build.0 = Debug|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Release|x64.ActiveCfg = Release|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Release|x64.Build.0 = Release|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Release|x86.ActiveCfg = Release|Any CPU
+		{20E09623-B4F8-40A4-A774-1F8BE8683B7F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E61908FB-E39D-47CA-A419-76A5B8217B4D} = {CAB5C064-07A4-4F94-96C7-9A950D63BA69}
