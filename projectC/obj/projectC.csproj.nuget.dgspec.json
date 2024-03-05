@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj": {}
+    "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj": {
+    "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj",
+        "projectUniqueName": "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj",
         "projectName": "projectC",
-        "projectPath": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj",
+        "projectPath": "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\projectC.csproj",
         "packagesPath": "C:\\Users\\Batch 9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\obj\\",
+        "outputPath": "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

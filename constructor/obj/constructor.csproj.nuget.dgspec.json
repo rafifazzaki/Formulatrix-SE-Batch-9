@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj": {}
+    "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj": {
+    "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj",
+        "projectUniqueName": "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj",
         "projectName": "constructor",
-        "projectPath": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj",
+        "projectPath": "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\constructor.csproj",
         "packagesPath": "C:\\Users\\Batch 9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\obj\\",
+        "outputPath": "c:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\constructor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
