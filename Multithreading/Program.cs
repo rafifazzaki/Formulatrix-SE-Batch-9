@@ -31,7 +31,7 @@
 
         // sebenarnya walaupun hanya di start bakalan dijalankan random 
         // (disini ada yg isBackground ada yg ngga, ada yg join ada yg ngga)
-        #region thread start
+        #region thread started
         thread1.Start();
         thread2.Start();
         thread3.Start();
@@ -54,6 +54,21 @@
         Thread otherThread = new(car.OtherWaysToDoParams);
         otherThread.Start("message in");
 
+        Thread threadException = new(() => {
+            try
+            {
+                deceleration = car.Brake(brakePedal);
+            }
+            catch (System.Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        });
+
+        // jangan pake 2 method ini:
+        // thread1.Priority = ThreadPriority.Highest;
+        // thread1.Abort();
 
         Console.WriteLine("Program Ended");
     }
@@ -72,7 +87,7 @@ class Car
 
     public void HandBrake()
     {
-        Console.WriteLine($"Handbreak goes brrr, , {Thread.CurrentThread.ManagedThreadId}");
+        Console.WriteLine($"Handbreak goes brrr, {Thread.CurrentThread.ManagedThreadId}");
     }
     public int Gas(int gasPedal)
     {
