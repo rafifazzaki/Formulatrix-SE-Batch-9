@@ -12,7 +12,6 @@ class Program{
     static void Main(){
         // SerializeTestCards();
         DeserializeTestCards();
-        
     }
 
     static void SerializeTestCards(){

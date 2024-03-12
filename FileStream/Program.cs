@@ -5,14 +5,15 @@ class Program{
     static object obj = new();
     static async Task Main(){
         CreateTextFile("text/test.txt");
-        CreateFileProtected("text/testProtected.txt");
+        CreateFileProtected("text/testProtected");
 
         
 
         await WriteFileStream("text/testStreamWriter.txt");
-        // await ReadFileStream("text/testStreamWriter.txt");
+        await ReadFileStream("text/testStreamWriter.txt");
         
         // await ReadFileStream2("text/testStreamWriter.txt");
+        // await ReadFileStream("text/testStreamWriter.txt");
         await WriteDirectlyFromStream("text/directly");
     }
 
