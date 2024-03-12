@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Card>
+    <Effect>Change Current Card Color</Effect>
+    <Name>Wild Card</Name>
+  </Card>
+  <Card>
+    <Effect>Reverse Current Game Turn</Effect>
+    <Name>Reverse Card</Name>
+  </Card>
+</ArrayOfCard>
