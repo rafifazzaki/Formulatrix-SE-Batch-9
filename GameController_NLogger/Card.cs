@@ -1,8 +1,9 @@
 namespace GameControllerLib;
+using log4net;
+using log4net.Config;
 
 public class Card : ICard
 {
-	
 	private int _value;
 	private string _description;
 	private CardStatus _status;

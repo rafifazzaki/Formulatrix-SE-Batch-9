@@ -1,9 +1,10 @@
-using NLog;
+using log4net;
+using log4net.Config;
 namespace GameControllerLib;
 
 public class GameController
 {
-	public static Logger log = LogManager.GetCurrentClassLogger();
+	private static readonly ILog log = LogManager.GetLogger(typeof(GameController));
 	private Dictionary<IPlayer, HashSet<ICard>> _players;
 	private IBoard _board;
 	public event Action<ICard>? OnCardUpdate;

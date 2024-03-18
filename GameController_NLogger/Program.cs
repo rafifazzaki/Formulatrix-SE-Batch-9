@@ -1,13 +1,17 @@
-﻿using NLog;
-using GameControllerLib;
+﻿using GameControllerLib;
+using log4net;
+using log4net.Config;
 
 public class Program 
 {
-    public static Logger log = LogManager.GetCurrentClassLogger();
+    private static readonly ILog log = LogManager.GetLogger(typeof(Program));
 
     static void Main(string[] args) 
     {
         // Set up a simple configuration that logs on the console.
+
+        // BasicConfigurator.Configure();
+        XmlConfigurator.Configure(new System.IO.FileInfo(args[0]));
         Card card0 = new(0, "card zero");
         Card card1 = new(1, "card one");
         Card card2 = new(2, "card two");
