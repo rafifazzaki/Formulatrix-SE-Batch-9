@@ -2,9 +2,9 @@ namespace Vehicle;
 
 
 class Tire{
-    public int diameter;
+    public int? diameter;
 
-    public string brand;
+    public string? brand;
 
     public string type;
 
