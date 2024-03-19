@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj": {}
+    "C:\\Users\\rafif\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj": {
+    "C:\\Users\\rafif\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj",
+        "projectUniqueName": "C:\\Users\\rafif\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj",
         "projectName": "projectA",
-        "projectPath": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj",
-        "packagesPath": "C:\\Users\\Batch 9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Batch 9\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\obj\\",
+        "projectPath": "C:\\Users\\rafif\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\projectA.csproj",
+        "packagesPath": "C:\\Users\\rafif\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafif\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\projectA\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Batch 9\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rafif\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +32,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

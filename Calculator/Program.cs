@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Calculator to add two integer and substract two integer
 /// </summary>
-sealed class Calculator{ //sealed agar tidak bisa di di inherit
+public sealed class Calculator{ //sealed agar tidak bisa di di inherit
     /// <summary>
     /// method 2 parameter to number
     /// </summary>
@@ -13,6 +13,12 @@ sealed class Calculator{ //sealed agar tidak bisa di di inherit
     }
     public int Subtract(int a, int b){
         return a - b;
+    }
+    public int Multiply(int a, int b){
+        return a * b;
+    }
+    public int Divide(int a, int b){
+        return a * b;
     }
 }
 class Program{
