@@ -66,12 +66,18 @@ public class Program{
             }
 
             // Create New Product
-            Product product1 = new Product(){
-                ProductName = "Something's Drink",
-                CategoryId = 1
-            };
-            db.Products.Add(product1);
-            db.SaveChanges();
+            // Product product1 = new Product(){
+            //     ProductName = "Something's Drink",
+            //     CategoryId = 1
+            // };
+            // db.Products.Add(product1);
+            // db.SaveChanges();
+            
+            var productDelete = db.Products.Where(c => c.ProductName.Contains("Something's Drink")).FirstOrDefault();
+            if(productDelete != null){
+                db.Products.Remove(productDelete);
+                db.SaveChanges();
+            }
         }
     }
 }
