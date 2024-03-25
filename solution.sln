@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -162,6 +162,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day4", "Day4", "{950189BC-8BCE-41DB-B0E0-E38AFCF32901}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonComposite", "NonComposite\NonComposite.csproj", "{8FD46E7C-E21B-4FB4-920F-53AF51277009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTutorial", "MVCTutorial\MVCTutorial.csproj", "{5719D9AC-78C2-4046-A021-EF5587992A9A}"
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
@@ -920,6 +922,18 @@ Global
 		{8FD46E7C-E21B-4FB4-920F-53AF51277009}.Release|x64.Build.0 = Release|Any CPU
 		{8FD46E7C-E21B-4FB4-920F-53AF51277009}.Release|x86.ActiveCfg = Release|Any CPU
 		{8FD46E7C-E21B-4FB4-920F-53AF51277009}.Release|x86.Build.0 = Release|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Debug|x64.Build.0 = Debug|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Debug|x86.Build.0 = Debug|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Release|x64.ActiveCfg = Release|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Release|x64.Build.0 = Release|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Release|x86.ActiveCfg = Release|Any CPU
+		{5719D9AC-78C2-4046-A021-EF5587992A9A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8FD46E7C-E21B-4FB4-920F-53AF51277009} = {950189BC-8BCE-41DB-B0E0-E38AFCF32901}
