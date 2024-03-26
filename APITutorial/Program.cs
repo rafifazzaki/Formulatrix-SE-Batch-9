@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using APITutorial.Data;
+using APITutorial.Map;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,8 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAutoMapper(typeof(MyMapper));
+
 // builder.Services.AddControllers();
-builder.Services.AddControllers().AddJsonOptions(x =>
+builder.Services.AddControllers().AddJsonOptions(
+    // why using this? literally because you use this in the CategoryController -> var categories = _db.Categories.Include(c => c.Products).ToList();
+    x =>
     x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles
 ); //so that it was not throw error cycle because inside Category there was Product and vice versa
 
