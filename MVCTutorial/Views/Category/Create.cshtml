@@ -1,0 +1,14 @@
+@model Category //like using Category
+<h1>Create Category</h1>
+
+<form method="post">
+    <div>
+        <label asp-for="CategoryName">Category Name</label>
+        <input asp-for="CategoryName" type="text" class="form-control" placeholder="Enter category">
+
+        <label asp-for="Description">Description</label>
+        <input asp-for="Description" type="text" class="form-control" placeholder="Enter Description">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a asp-action="Index" class="btn btn-info">Cancel</a>
+</form>

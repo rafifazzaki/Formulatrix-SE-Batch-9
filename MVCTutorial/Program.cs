@@ -1,7 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using MVCTutorial.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();     //just like installing app on the OS 
+
+builder.Services.AddDbContext<DataContext>(options => {
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 var app = builder.Build();      //"running the OS"
 

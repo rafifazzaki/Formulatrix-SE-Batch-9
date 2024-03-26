@@ -1,0 +1,6 @@
+@APITutorial_HostAddress = http://localhost:5223
+
+GET {{APITutorial_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
