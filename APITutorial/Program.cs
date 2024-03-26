@@ -1,6 +1,7 @@
 using System.Text.Json.Serialization;
 using APITutorial.Data;
 using APITutorial.Map;
+using APITutorial.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +10,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// siapapun yg butuh ICategoryRepository kasih CategoryRepository
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
+// siapun yg butuh CategoryRepository kasih CategoryRepository
+// builder.Services.AddScoped<CategoryRepository>();
+
+// AddScoped: using { }, udah ada dispose, dan klo masih satu scope masih dikasih instance yg sama
+// AddSingleton
+// AddTransient
 
 builder.Services.AddAutoMapper(typeof(MyMapper));
 

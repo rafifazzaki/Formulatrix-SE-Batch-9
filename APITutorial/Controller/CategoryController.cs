@@ -4,23 +4,39 @@ using APITutorial.Model;
 using Microsoft.EntityFrameworkCore;
 using APITutorial.Model.DTOs;
 using AutoMapper;
+using APITutorial.Repositories;
 namespace APITutorial.Controller;
 
 public class CategoryController : APIBaseController
 {
+    private readonly ICategoryRepository _categoryRepository;
     private readonly DataContext _db;
     private readonly IMapper _mapper;
 
-    public CategoryController(DataContext db, IMapper mapper)
-    {
-        _db = db;
+    // sebelum diabstraksi
+    // public CategoryController(DataContext db, IMapper mapper)
+    // {
+    //     _db = db;
+    //     _mapper = mapper;
+    // }
+
+    // sesudah diabstraksi
+    public CategoryController(IMapper mapper, ICategoryRepository categoryRepository){
         _mapper = mapper;
+        _categoryRepository = categoryRepository;
     }
 
 
     [HttpGet]
     public IActionResult GetAllCategory(){
-        var categories = _db.Categories.ToList();
+        
+        // sebelum diabstraksi
+        // var categories = _db.Categories.ToList();
+
+        // setelah diabstraksi
+        var categories = _categoryRepository.GetAll().ToList();
+
+
         // var categories = _db.Categories.Include(c => c.Products).ToList(); //nampilin produk didalamnya
         
         // using DTO (Data Transfer Object)
@@ -39,7 +55,12 @@ public class CategoryController : APIBaseController
 
     [HttpGet("{id}")]
     public IActionResult GetCategory(int id){
-        var category = _db.Categories.Include(c => c.Products).FirstOrDefault(c => c.CategoryId == id);
+        // sebelum diabstraksi
+        // var category = _db.Categories.Include(c => c.Products).FirstOrDefault(c => c.CategoryId == id);
+        
+        // setelah diabstraksi
+        var category = _categoryRepository.Get(c => c.CategoryId == id).FirstOrDefault();
+
         if(category == null){
             return NotFound();
         }
@@ -56,16 +77,31 @@ public class CategoryController : APIBaseController
         // category.Description = categoryRequest.Description;
         Category category = _mapper.Map<Category>(categoryRequest);
 
-        _db.Categories.Add(category);
-        _db.SaveChanges();
+        // sebelum diabstraksi
+        // _db.Categories.Add(category);
+        // _db.SaveChanges();
+
+        // setelah diabstraksi
+        _categoryRepository.Add(category);
+        _categoryRepository.Save();
+
         return Ok(category);
     }
     [HttpPut("{id}")]
+
+    // [HttpPut]
+	// [Route("{id}")]
     public IActionResult UpdateCategory([FromRoute]int id, [FromBody]Category? category){
         if(category is null){
             return NotFound("Category not found!");
         }
-        var existingCategory = _db.Categories.FirstOrDefault(c => c.CategoryId == id);
+        
+        // sebelum diabstraksi
+        // var existingCategory = _db.Categories.FirstOrDefault(c => c.CategoryId == id);
+        
+        // setelah diabstraksi
+        var existingCategory = _categoryRepository.Get(c => c.CategoryId == id).FirstOrDefault();
+        
         if(existingCategory is null){
             return NotFound($"Category with id {id} not found!");
         }
@@ -75,20 +111,31 @@ public class CategoryController : APIBaseController
         if(category.Description != null){
             existingCategory.Description = category.Description;
         }
-        _db.SaveChanges();
+        _categoryRepository.Save();
         return Ok(existingCategory);
     }
+
     [HttpDelete("{id}")]
     public IActionResult UpdateCategory(int? id){
         if(id == null || id < 1){
             return NotFound();
         }
-        var deleteCategory = _db.Categories.FirstOrDefault(c => c.CategoryId == id);
+        // sebelum diabstraksi
+        // var deleteCategory = _db.Categories.FirstOrDefault(c => c.CategoryId == id);
+        
+        // setelah diabstraksi
+        var deleteCategory = _categoryRepository.Get(c => c.CategoryId == id).FirstOrDefault();
+        
         if(deleteCategory == null){
             return NotFound();
         }
-        _db.Categories.Remove(deleteCategory);
-        _db.SaveChanges();
+        // sebelum diabstraksi
+        // _db.Categories.Remove(deleteCategory);
+        // _db.SaveChanges();
+
+        // setelah diabstraksi
+        _categoryRepository.Remove(deleteCategory);
+        _categoryRepository.Save();
         return Ok(deleteCategory);
     }
 }
