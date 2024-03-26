@@ -2,6 +2,7 @@ using APITutorial.Data;
 using Microsoft.AspNetCore.Mvc;
 using APITutorial.Model;
 using Microsoft.EntityFrameworkCore;
+using APITutorial.Model.DTOs;
 namespace APITutorial.Controller;
 
 public class CategoryController : APIBaseController
@@ -17,8 +18,19 @@ public class CategoryController : APIBaseController
     [HttpGet]
     public IActionResult GetAllCategory(){
         // var categories = _db.Categories.ToList();
-        var categories = _db.Categories.Include(c => c.Products).ToList();
-        return Ok(categories);
+        // var categories = _db.Categories.Include(c => c.Products).ToList();
+        
+        // using DTO (Data Transfer Object)
+        List<CategoryDTO> categoryResponds = new();
+        foreach (var category in categoryResponds)
+        {
+            categoryResponds.Add(new CategoryDTO{
+                CategoryName = category.CategoryName,
+                Description = category.Description
+            });
+        }
+
+        return Ok(categoryResponds);
     }
 
     [HttpGet("{id}")]
@@ -30,10 +42,14 @@ public class CategoryController : APIBaseController
         return Ok(category);
     }
     [HttpPost]
-    public IActionResult AddCategory([FromBody]Category? category){
-        if(category is null){
+    public IActionResult AddCategory([FromBody]CategoryDTO? categoryRequest){
+        if(categoryRequest is null){
             return NotFound();
         }
+        Category category = new Category();
+        // mapping to DTO
+        category.CategoryName = categoryRequest.CategoryName;
+        category.Description = categoryRequest.Description;
         _db.Categories.Add(category);
         _db.SaveChanges();
         return Ok(category);
