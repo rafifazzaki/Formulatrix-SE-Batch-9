@@ -483,4 +483,13 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 *.cache
-*.cs
+composition/obj/Debug/net8.0/composition.AssemblyInfo.cs
+composition/obj/Debug/net8.0/composition.AssemblyInfoInputs.cache
+constructor/obj/Debug/net8.0/constructor.AssemblyInfo.cs
+constructor/obj/Debug/net8.0/constructor.AssemblyInfoInputs.cache
+Inheritance/obj/Debug/net8.0/Inheritance.AssemblyInfo.cs
+Inheritance/obj/Debug/net8.0/Inheritance.AssemblyInfoInputs.cache
+projectA/obj/Debug/net8.0/projectA.AssemblyInfo.cs
+projectA/obj/Debug/net8.0/projectA.AssemblyInfoInputs.cache
+projectC/obj/Debug/net8.0/projectC.AssemblyInfo.cs
+projectC/obj/Debug/net8.0/projectC.AssemblyInfoInputs.cache
