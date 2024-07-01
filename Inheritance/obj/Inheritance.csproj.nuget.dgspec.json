@@ -13,13 +13,18 @@
         "packagesPath": "C:\\Users\\rafif\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\rafif\\Documents\\GitHub\\Formulatrix-SE-Batch-9\\Inheritance\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rafif\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\rafif\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
